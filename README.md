@@ -18,6 +18,8 @@ This tool is built for Network Security Engineers requiring quick, automated hea
    git clone [https://github.com/yourusername/ise-node-monitor.git](https://github.com/yourusername/ise-node-monitor.git)
 
 3. Install the required dependencies (requirements.txt)
+   pip install -r requirements.txt
+   
 4. Update the ise_pans list in the main() function with your fully qualified domain names:
      ise_pans = ["ise-pan-primary.domain.local", "ise-pan-secondary.domain.local"]
 
